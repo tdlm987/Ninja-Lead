@@ -1,0 +1,22 @@
+# Thư mục cần bỏ qua
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]serSettings/
+[Pp]ackages/com.unity.package-manager.cache/
+
+# File cần bỏ qua
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb

@@ -1,0 +1,166 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\My Studies\\Unity\\NinjaLeadCloneByTrung\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BA7A2B3E-4204-8C98-6857-6D4FA939DB29}|Assembly-CSharp.csproj|e:\\my studies\\unity\\ninjaleadclonebytrung\\assets\\scritps\\ui\\questlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA7A2B3E-4204-8C98-6857-6D4FA939DB29}|Assembly-CSharp.csproj|solutionrelative:assets\\scritps\\ui\\questlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA7A2B3E-4204-8C98-6857-6D4FA939DB29}|Assembly-CSharp.csproj|e:\\my studies\\unity\\ninjaleadclonebytrung\\assets\\scritps\\generals\\quest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA7A2B3E-4204-8C98-6857-6D4FA939DB29}|Assembly-CSharp.csproj|solutionrelative:assets\\scritps\\generals\\quest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA7A2B3E-4204-8C98-6857-6D4FA939DB29}|Assembly-CSharp.csproj|E:\\My Studies\\Unity\\NinjaLeadCloneByTrung\\assets\\scritps\\generals\\uipanelscale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA7A2B3E-4204-8C98-6857-6D4FA939DB29}|Assembly-CSharp.csproj|solutionrelative:assets\\scritps\\generals\\uipanelscale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA7A2B3E-4204-8C98-6857-6D4FA939DB29}|Assembly-CSharp.csproj|E:\\My Studies\\Unity\\NinjaLeadCloneByTrung\\assets\\scritps\\obtacles\\accident.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA7A2B3E-4204-8C98-6857-6D4FA939DB29}|Assembly-CSharp.csproj|solutionrelative:assets\\scritps\\obtacles\\accident.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA7A2B3E-4204-8C98-6857-6D4FA939DB29}|Assembly-CSharp.csproj|E:\\My Studies\\Unity\\NinjaLeadCloneByTrung\\assets\\scritps\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA7A2B3E-4204-8C98-6857-6D4FA939DB29}|Assembly-CSharp.csproj|solutionrelative:assets\\scritps\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA7A2B3E-4204-8C98-6857-6D4FA939DB29}|Assembly-CSharp.csproj|E:\\My Studies\\Unity\\NinjaLeadCloneByTrung\\assets\\scritps\\obtacles\\obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA7A2B3E-4204-8C98-6857-6D4FA939DB29}|Assembly-CSharp.csproj|solutionrelative:assets\\scritps\\obtacles\\obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA7A2B3E-4204-8C98-6857-6D4FA939DB29}|Assembly-CSharp.csproj|E:\\My Studies\\Unity\\NinjaLeadCloneByTrung\\assets\\scritps\\obtacles\\vehical.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA7A2B3E-4204-8C98-6857-6D4FA939DB29}|Assembly-CSharp.csproj|solutionrelative:assets\\scritps\\obtacles\\vehical.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA7A2B3E-4204-8C98-6857-6D4FA939DB29}|Assembly-CSharp.csproj|E:\\My Studies\\Unity\\NinjaLeadCloneByTrung\\assets\\scritps\\effects\\redlinefollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA7A2B3E-4204-8C98-6857-6D4FA939DB29}|Assembly-CSharp.csproj|solutionrelative:assets\\scritps\\effects\\redlinefollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA7A2B3E-4204-8C98-6857-6D4FA939DB29}|Assembly-CSharp.csproj|E:\\My Studies\\Unity\\NinjaLeadCloneByTrung\\assets\\scritps\\obtacles\\racingboy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA7A2B3E-4204-8C98-6857-6D4FA939DB29}|Assembly-CSharp.csproj|solutionrelative:assets\\scritps\\obtacles\\racingboy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QuestLog.cs",
+              "DocumentMoniker": "E:\\My Studies\\Unity\\NinjaLeadCloneByTrung\\Assets\\Scritps\\UI\\QuestLog.cs",
+              "RelativeDocumentMoniker": "Assets\\Scritps\\UI\\QuestLog.cs",
+              "ToolTip": "E:\\My Studies\\Unity\\NinjaLeadCloneByTrung\\Assets\\Scritps\\UI\\QuestLog.cs",
+              "RelativeToolTip": "Assets\\Scritps\\UI\\QuestLog.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAswEkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T20:05:12.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UIPanelScale.cs",
+              "DocumentMoniker": "E:\\My Studies\\Unity\\NinjaLeadCloneByTrung\\Assets\\Scritps\\Generals\\UIPanelScale.cs",
+              "RelativeDocumentMoniker": "Assets\\Scritps\\Generals\\UIPanelScale.cs",
+              "ToolTip": "E:\\My Studies\\Unity\\NinjaLeadCloneByTrung\\Assets\\Scritps\\Generals\\UIPanelScale.cs",
+              "RelativeToolTip": "Assets\\Scritps\\Generals\\UIPanelScale.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T19:03:41.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Accident.cs",
+              "DocumentMoniker": "E:\\My Studies\\Unity\\NinjaLeadCloneByTrung\\Assets\\Scritps\\Obtacles\\Accident.cs",
+              "RelativeDocumentMoniker": "Assets\\Scritps\\Obtacles\\Accident.cs",
+              "ToolTip": "E:\\My Studies\\Unity\\NinjaLeadCloneByTrung\\Assets\\Scritps\\Obtacles\\Accident.cs",
+              "RelativeToolTip": "Assets\\Scritps\\Obtacles\\Accident.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T17:25:42.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "E:\\My Studies\\Unity\\NinjaLeadCloneByTrung\\Assets\\Scritps\\Player\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scritps\\Player\\PlayerMovement.cs",
+              "ToolTip": "E:\\My Studies\\Unity\\NinjaLeadCloneByTrung\\Assets\\Scritps\\Player\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scritps\\Player\\PlayerMovement.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAwwFIAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T09:30:38.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RedLineFollow.cs",
+              "DocumentMoniker": "E:\\My Studies\\Unity\\NinjaLeadCloneByTrung\\Assets\\Scritps\\Effects\\RedLineFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scritps\\Effects\\RedLineFollow.cs",
+              "ToolTip": "E:\\My Studies\\Unity\\NinjaLeadCloneByTrung\\Assets\\Scritps\\Effects\\RedLineFollow.cs",
+              "RelativeToolTip": "Assets\\Scritps\\Effects\\RedLineFollow.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAADwvzoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T03:22:41.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Quest.cs",
+              "DocumentMoniker": "E:\\My Studies\\Unity\\NinjaLeadCloneByTrung\\Assets\\Scritps\\Generals\\Quest.cs",
+              "RelativeDocumentMoniker": "Assets\\Scritps\\Generals\\Quest.cs",
+              "ToolTip": "E:\\My Studies\\Unity\\NinjaLeadCloneByTrung\\Assets\\Scritps\\Generals\\Quest.cs",
+              "RelativeToolTip": "Assets\\Scritps\\Generals\\Quest.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAuwHcAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T03:07:38.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Obstacle.cs",
+              "DocumentMoniker": "E:\\My Studies\\Unity\\NinjaLeadCloneByTrung\\Assets\\Scritps\\Obtacles\\Obstacle.cs",
+              "RelativeDocumentMoniker": "Assets\\Scritps\\Obtacles\\Obstacle.cs",
+              "ToolTip": "E:\\My Studies\\Unity\\NinjaLeadCloneByTrung\\Assets\\Scritps\\Obtacles\\Obstacle.cs",
+              "RelativeToolTip": "Assets\\Scritps\\Obtacles\\Obstacle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T02:58:46.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Vehical.cs",
+              "DocumentMoniker": "E:\\My Studies\\Unity\\NinjaLeadCloneByTrung\\Assets\\Scritps\\Obtacles\\Vehical.cs",
+              "RelativeDocumentMoniker": "Assets\\Scritps\\Obtacles\\Vehical.cs",
+              "ToolTip": "E:\\My Studies\\Unity\\NinjaLeadCloneByTrung\\Assets\\Scritps\\Obtacles\\Vehical.cs",
+              "RelativeToolTip": "Assets\\Scritps\\Obtacles\\Vehical.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T03:13:24.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RacingBoy.cs",
+              "DocumentMoniker": "E:\\My Studies\\Unity\\NinjaLeadCloneByTrung\\Assets\\Scritps\\Obtacles\\RacingBoy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scritps\\Obtacles\\RacingBoy.cs",
+              "ToolTip": "E:\\My Studies\\Unity\\NinjaLeadCloneByTrung\\Assets\\Scritps\\Obtacles\\RacingBoy.cs",
+              "RelativeToolTip": "Assets\\Scritps\\Obtacles\\RacingBoy.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAA8wCcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T02:50:11.241Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
