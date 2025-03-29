@@ -28,16 +28,10 @@ public class PlayerMovement : ObjectBase
     protected override void OnEnable()
     {
         base.OnEnable();
-        inputManager.OnStartTouch += Turn;
-        inputManager.OnEndTouch += Turn;
-        inputManager.OnHoldTouch += Turn;
     }
     protected override void OnDisable()
     {
         base.OnDisable();
-        inputManager.OnStartTouch -= Turn;
-        inputManager.OnEndTouch -= Turn;
-        inputManager.OnHoldTouch -= Turn;
     }
     protected override void LoadState()
     {
@@ -54,7 +48,6 @@ public class PlayerMovement : ObjectBase
         if (PlayerMovement.instance != null)
             Debug.LogWarning("Instance PlayerMovement has been existed!");
         instance = this;
-        inputManager = InputManager.Instance;
     }
     private void Update()
     {
@@ -64,6 +57,7 @@ public class PlayerMovement : ObjectBase
     {
         this.Boost();
         this.Move();
+        this.Turn();
         //this.Fly();
     }
     protected override void Move()
@@ -74,10 +68,10 @@ public class PlayerMovement : ObjectBase
     {
         base.UpdateForwardSpeed();
     }
-    protected virtual void Turn(Vector2 direction,float time)
+    protected virtual void Turn()
     {
         if (!canMove) return;
-        horizontalInput = direction.x;
+        horizontalInput = Input.GetAxisRaw("Horizontal");
         if (this != null && this.transform != null)
         {
             transform.DORotate(Vector3.up * angleTurn * horizontalInput, turnDuration);
