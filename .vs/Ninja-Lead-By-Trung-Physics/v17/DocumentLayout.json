@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\game\\Ninja-Lead-By-Trung-Physics\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B360460E-5B62-52DD-D198-2DE3875CE4AF}|Assembly-CSharp.csproj|d:\\game\\ninja-lead-by-trung-physics\\assets\\scritps\\generals\\quest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B360460E-5B62-52DD-D198-2DE3875CE4AF}|Assembly-CSharp.csproj|solutionrelative:assets\\scritps\\generals\\quest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B360460E-5B62-52DD-D198-2DE3875CE4AF}|Assembly-CSharp.csproj|d:\\game\\ninja-lead-by-trung-physics\\assets\\scritps\\network\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B360460E-5B62-52DD-D198-2DE3875CE4AF}|Assembly-CSharp.csproj|solutionrelative:assets\\scritps\\network\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B360460E-5B62-52DD-D198-2DE3875CE4AF}|Assembly-CSharp.csproj|d:\\game\\ninja-lead-by-trung-physics\\assets\\scritps\\ui\\distancemeasure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B360460E-5B62-52DD-D198-2DE3875CE4AF}|Assembly-CSharp.csproj|solutionrelative:assets\\scritps\\ui\\distancemeasure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B360460E-5B62-52DD-D198-2DE3875CE4AF}|Assembly-CSharp.csproj|d:\\game\\ninja-lead-by-trung-physics\\assets\\scritps\\network\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B360460E-5B62-52DD-D198-2DE3875CE4AF}|Assembly-CSharp.csproj|solutionrelative:assets\\scritps\\network\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B360460E-5B62-52DD-D198-2DE3875CE4AF}|Assembly-CSharp.csproj|D:\\game\\Ninja-Lead-By-Trung-Physics\\assets\\scritps\\network\\lobbyui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B360460E-5B62-52DD-D198-2DE3875CE4AF}|Assembly-CSharp.csproj|solutionrelative:assets\\scritps\\network\\lobbyui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Quest.cs",
+              "DocumentMoniker": "D:\\game\\Ninja-Lead-By-Trung-Physics\\Assets\\Scritps\\Generals\\Quest.cs",
+              "RelativeDocumentMoniker": "Assets\\Scritps\\Generals\\Quest.cs",
+              "ToolTip": "D:\\game\\Ninja-Lead-By-Trung-Physics\\Assets\\Scritps\\Generals\\Quest.cs",
+              "RelativeToolTip": "Assets\\Scritps\\Generals\\Quest.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAnwGMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T04:50:02.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DistanceMeasure.cs",
+              "DocumentMoniker": "D:\\game\\Ninja-Lead-By-Trung-Physics\\Assets\\Scritps\\UI\\DistanceMeasure.cs",
+              "RelativeDocumentMoniker": "Assets\\Scritps\\UI\\DistanceMeasure.cs",
+              "ToolTip": "D:\\game\\Ninja-Lead-By-Trung-Physics\\Assets\\Scritps\\UI\\DistanceMeasure.cs",
+              "RelativeToolTip": "Assets\\Scritps\\UI\\DistanceMeasure.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T04:33:20.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "D:\\game\\Ninja-Lead-By-Trung-Physics\\Assets\\Scritps\\Network\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scritps\\Network\\GameManager.cs",
+              "ToolTip": "D:\\game\\Ninja-Lead-By-Trung-Physics\\Assets\\Scritps\\Network\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scritps\\Network\\GameManager.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T04:24:22.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LobbyUI.cs",
+              "DocumentMoniker": "D:\\game\\Ninja-Lead-By-Trung-Physics\\Assets\\Scritps\\Network\\LobbyUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scritps\\Network\\LobbyUI.cs",
+              "ToolTip": "D:\\game\\Ninja-Lead-By-Trung-Physics\\Assets\\Scritps\\Network\\LobbyUI.cs",
+              "RelativeToolTip": "Assets\\Scritps\\Network\\LobbyUI.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T15:38:42.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NetworkManager.cs",
+              "DocumentMoniker": "D:\\game\\Ninja-Lead-By-Trung-Physics\\Assets\\Scritps\\Network\\NetworkManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scritps\\Network\\NetworkManager.cs",
+              "ToolTip": "D:\\game\\Ninja-Lead-By-Trung-Physics\\Assets\\Scritps\\Network\\NetworkManager.cs",
+              "RelativeToolTip": "Assets\\Scritps\\Network\\NetworkManager.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T15:02:55.034Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
