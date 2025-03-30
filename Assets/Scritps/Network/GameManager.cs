@@ -11,6 +11,10 @@ public class GameManager : MonoBehaviour, INetworkRunnerCallbacks
     [SerializeField] protected NetworkRunner _runner;
     [SerializeField] protected GameObject playerPrefab;
     [SerializeField] protected Transform spawnPos;
+
+
+    [Networked]
+    [field: SerializeField] public NetworkDictionary<PlayerRef, PlayerMovement> players => default;
     private void Awake()
     {
         if (!this._runner)
@@ -44,13 +48,17 @@ public class GameManager : MonoBehaviour, INetworkRunnerCallbacks
     public void OnPlayerJoined(NetworkRunner runner, PlayerRef player)
     {
         Debug.Log( "newPlayer" );
-
+        if(runner.IsServer)
+        {
         NetworkObject newPlayer = runner.Spawn(
             prefab: playerPrefab,
             position: spawnPos.position,
             rotation: quaternion.identity,
             inputAuthority: player
             );
+
+            players.Add(player, newPlayer.GetComponent<PlayerMovement>());
+        }
     }
 
     public void OnPlayerLeft(NetworkRunner runner, PlayerRef player)
