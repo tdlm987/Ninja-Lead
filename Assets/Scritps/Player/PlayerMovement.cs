@@ -55,6 +55,12 @@ public class PlayerMovement : ObjectBase
     }
     private void FixedUpdate()
     {
+        //this.Boost();
+        //this.Move();
+        //this.Fly();
+    }
+    public override void FixedUpdateNetwork()
+    {
         this.Boost();
         this.Move();
         this.Turn();

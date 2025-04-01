@@ -8,13 +8,16 @@ public class Coin : PowerUp
     {
         PlayerMovement player = other.GetComponent<PlayerMovement>();
         if (player != null){
-            Debug.Log("Bạn đã nhặt được coins!");
-            this.UpdateCoinUI();
+            if(player.HasInputAuthority)
+            {
+                Debug.Log("Bạn đã nhặt được coins!");
+                this.UpdateCoinUI(player.GetComponent<PlayerInfo>());
+            }
             this.gameObject.SetActive(false);
         }
     }
-    private void UpdateCoinUI(){
-        PlayerInfo.Instance.UpdateCoin(DefaultValue());
+    private void UpdateCoinUI(PlayerInfo player){
+        player.UpdateCoin(DefaultValue());
     }
     private int DefaultValue() => this.amountReceive;
 }

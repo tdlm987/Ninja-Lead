@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using System.Globalization;
 using DG.Tweening;
+using Fusion;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Quest : MonoBehaviour
+public class Quest : NetworkBehaviour
 {
     private static Quest instance;
     private void Awake()
@@ -89,7 +90,7 @@ public class Quest : MonoBehaviour
     {
         int highScore = PlayerPrefs.GetInt("HighScore", 0);
         this.DisplayHighScore(highScore);
-        DistanceMeasure.Instance.UpdateStateMeasureDistance(true);
+        //DistanceMeasure.Instance.UpdateStateMeasureDistance(true);
         this.DisplayCurrentDistance(DefaultValue());
         this.DisplayCurrentCoins(DefaultValue());
         this.panelPauseGame.gameObject.SetActive(false);

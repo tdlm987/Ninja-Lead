@@ -51,9 +51,9 @@ public class RacingBoy : Obstacle
         base.LoadComponents();
         instance = this;
     }
-    protected override void Start()
+    protected virtual void Start()
     {
-        base.Start();
+        
     }
     private void FixedUpdate()
     {

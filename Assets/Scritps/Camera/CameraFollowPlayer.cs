@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Fusion;
 using UnityEngine;
 
-public class CameraFollowPlayer : MonoBehaviour
+public class CameraFollowPlayer : NetworkBehaviour
 {
     private Transform target;        // Nhân vật cần theo dõi
     [SerializeField] private Vector3 offset = new Vector3(0, 5, -10); // Khoảng cách so với nhân vật
@@ -18,20 +19,43 @@ public class CameraFollowPlayer : MonoBehaviour
 
     private void Awake()
     {
-        target = FindAnyObjectByType<PlayerMovement>().transform;
+        
     }
 
     void Start()
     {
         cam = GetComponent<Camera>();
+        LoadCameraForPlayer();
     }
 
-    void Update()
+    public void LoadCameraForPlayer()
     {
+        // Tìm tất cả PlayerMovement trong scene
+        PlayerMovement[] players = FindObjectsOfType<PlayerMovement>();
+
+        foreach (PlayerMovement player in players)
+        {
+            // Kiểm tra nếu player này là Player Local (có quyền điều khiển)
+            if (player.Object.HasInputAuthority)
+            {
+                target = player.transform;
+                gameObject.SetActive(true); // Bật Camera nếu đúng Player Local
+                return;
+            }
+        }
+        gameObject.SetActive(false);
+    }
+
+    private void Update()
+    {
+        if (target == null) return;
+
+        // Thay đổi FOV khi boost
         float targetFOV = (PlayerMovement.Instance.IsBoost) ? boostFOV : normalFOV;
         cam.fieldOfView = Mathf.Lerp(cam.fieldOfView, targetFOV, fovSpeed * Time.deltaTime);
     }
-    void LateUpdate()
+
+    private void LateUpdate()
     {
         if (target == null) return;
 
