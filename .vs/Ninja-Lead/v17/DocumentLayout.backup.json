@@ -1,0 +1,182 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\My Studies\\Ninja-Lead\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{37AD1E4A-C3CF-BF8D-EE5A-EC6DD2F9FCAD}|Assembly-CSharp.csproj|E:\\My Studies\\Ninja-Lead\\assets\\scritps\\ui\\playercontrollerui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AD1E4A-C3CF-BF8D-EE5A-EC6DD2F9FCAD}|Assembly-CSharp.csproj|solutionrelative:assets\\scritps\\ui\\playercontrollerui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AD1E4A-C3CF-BF8D-EE5A-EC6DD2F9FCAD}|Assembly-CSharp.csproj|e:\\my studies\\ninja-lead\\assets\\scritps\\generals\\quest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AD1E4A-C3CF-BF8D-EE5A-EC6DD2F9FCAD}|Assembly-CSharp.csproj|solutionrelative:assets\\scritps\\generals\\quest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AD1E4A-C3CF-BF8D-EE5A-EC6DD2F9FCAD}|Assembly-CSharp.csproj|E:\\My Studies\\Ninja-Lead\\assets\\scritps\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AD1E4A-C3CF-BF8D-EE5A-EC6DD2F9FCAD}|Assembly-CSharp.csproj|solutionrelative:assets\\scritps\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AD1E4A-C3CF-BF8D-EE5A-EC6DD2F9FCAD}|Assembly-CSharp.csproj|E:\\My Studies\\Ninja-Lead\\assets\\scritps\\ui\\distancemeasure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AD1E4A-C3CF-BF8D-EE5A-EC6DD2F9FCAD}|Assembly-CSharp.csproj|solutionrelative:assets\\scritps\\ui\\distancemeasure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AD1E4A-C3CF-BF8D-EE5A-EC6DD2F9FCAD}|Assembly-CSharp.csproj|E:\\My Studies\\Ninja-Lead\\assets\\scritps\\player\\objectbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AD1E4A-C3CF-BF8D-EE5A-EC6DD2F9FCAD}|Assembly-CSharp.csproj|solutionrelative:assets\\scritps\\player\\objectbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AD1E4A-C3CF-BF8D-EE5A-EC6DD2F9FCAD}|Assembly-CSharp.csproj|E:\\My Studies\\Ninja-Lead\\assets\\scritps\\camera\\playersetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AD1E4A-C3CF-BF8D-EE5A-EC6DD2F9FCAD}|Assembly-CSharp.csproj|solutionrelative:assets\\scritps\\camera\\playersetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AD1E4A-C3CF-BF8D-EE5A-EC6DD2F9FCAD}|Assembly-CSharp.csproj|E:\\My Studies\\Ninja-Lead\\assets\\scritps\\powerup\\coin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AD1E4A-C3CF-BF8D-EE5A-EC6DD2F9FCAD}|Assembly-CSharp.csproj|solutionrelative:assets\\scritps\\powerup\\coin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AD1E4A-C3CF-BF8D-EE5A-EC6DD2F9FCAD}|Assembly-CSharp.csproj|E:\\My Studies\\Ninja-Lead\\assets\\scritps\\player\\playerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AD1E4A-C3CF-BF8D-EE5A-EC6DD2F9FCAD}|Assembly-CSharp.csproj|solutionrelative:assets\\scritps\\player\\playerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AD1E4A-C3CF-BF8D-EE5A-EC6DD2F9FCAD}|Assembly-CSharp.csproj|E:\\My Studies\\Ninja-Lead\\assets\\scritps\\ground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AD1E4A-C3CF-BF8D-EE5A-EC6DD2F9FCAD}|Assembly-CSharp.csproj|solutionrelative:assets\\scritps\\ground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AD1E4A-C3CF-BF8D-EE5A-EC6DD2F9FCAD}|Assembly-CSharp.csproj|E:\\My Studies\\Ninja-Lead\\assets\\scritps\\camera\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AD1E4A-C3CF-BF8D-EE5A-EC6DD2F9FCAD}|Assembly-CSharp.csproj|solutionrelative:assets\\scritps\\camera\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerControllerUI.cs",
+              "DocumentMoniker": "E:\\My Studies\\Ninja-Lead\\Assets\\Scritps\\UI\\PlayerControllerUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scritps\\UI\\PlayerControllerUI.cs",
+              "ToolTip": "E:\\My Studies\\Ninja-Lead\\Assets\\Scritps\\UI\\PlayerControllerUI.cs",
+              "RelativeToolTip": "Assets\\Scritps\\UI\\PlayerControllerUI.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAADMAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T07:48:07.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Quest.cs",
+              "DocumentMoniker": "E:\\My Studies\\Ninja-Lead\\Assets\\Scritps\\Generals\\Quest.cs",
+              "RelativeDocumentMoniker": "Assets\\Scritps\\Generals\\Quest.cs",
+              "ToolTip": "E:\\My Studies\\Ninja-Lead\\Assets\\Scritps\\Generals\\Quest.cs",
+              "RelativeToolTip": "Assets\\Scritps\\Generals\\Quest.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAACcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T07:42:06.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlayerInfo.cs",
+              "DocumentMoniker": "E:\\My Studies\\Ninja-Lead\\Assets\\Scritps\\Player\\PlayerInfo.cs",
+              "RelativeDocumentMoniker": "Assets\\Scritps\\Player\\PlayerInfo.cs",
+              "ToolTip": "E:\\My Studies\\Ninja-Lead\\Assets\\Scritps\\Player\\PlayerInfo.cs",
+              "RelativeToolTip": "Assets\\Scritps\\Player\\PlayerInfo.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCkAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T04:43:45.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Coin.cs",
+              "DocumentMoniker": "E:\\My Studies\\Ninja-Lead\\Assets\\Scritps\\PowerUp\\Coin.cs",
+              "RelativeDocumentMoniker": "Assets\\Scritps\\PowerUp\\Coin.cs",
+              "ToolTip": "E:\\My Studies\\Ninja-Lead\\Assets\\Scritps\\PowerUp\\Coin.cs",
+              "RelativeToolTip": "Assets\\Scritps\\PowerUp\\Coin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T04:40:38.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerSetup.cs",
+              "DocumentMoniker": "E:\\My Studies\\Ninja-Lead\\Assets\\Scritps\\Camera\\PlayerSetup.cs",
+              "RelativeDocumentMoniker": "Assets\\Scritps\\Camera\\PlayerSetup.cs",
+              "ToolTip": "E:\\My Studies\\Ninja-Lead\\Assets\\Scritps\\Camera\\PlayerSetup.cs",
+              "RelativeToolTip": "Assets\\Scritps\\Camera\\PlayerSetup.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAsAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T09:16:16.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ObjectBase.cs",
+              "DocumentMoniker": "E:\\My Studies\\Ninja-Lead\\Assets\\Scritps\\Player\\ObjectBase.cs",
+              "RelativeDocumentMoniker": "Assets\\Scritps\\Player\\ObjectBase.cs",
+              "ToolTip": "E:\\My Studies\\Ninja-Lead\\Assets\\Scritps\\Player\\ObjectBase.cs",
+              "RelativeToolTip": "Assets\\Scritps\\Player\\ObjectBase.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAYwEkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T05:58:45.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DistanceMeasure.cs",
+              "DocumentMoniker": "E:\\My Studies\\Ninja-Lead\\Assets\\Scritps\\UI\\DistanceMeasure.cs",
+              "RelativeDocumentMoniker": "Assets\\Scritps\\UI\\DistanceMeasure.cs",
+              "ToolTip": "E:\\My Studies\\Ninja-Lead\\Assets\\Scritps\\UI\\DistanceMeasure.cs",
+              "RelativeToolTip": "Assets\\Scritps\\UI\\DistanceMeasure.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAA7wCgAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T04:59:25.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "E:\\My Studies\\Ninja-Lead\\Assets\\Scritps\\Player\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scritps\\Player\\PlayerMovement.cs",
+              "ToolTip": "E:\\My Studies\\Ninja-Lead\\Assets\\Scritps\\Player\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scritps\\Player\\PlayerMovement.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAgwIMAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T07:33:40.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Ground.cs",
+              "DocumentMoniker": "E:\\My Studies\\Ninja-Lead\\Assets\\Scritps\\Ground.cs",
+              "RelativeDocumentMoniker": "Assets\\Scritps\\Ground.cs",
+              "ToolTip": "E:\\My Studies\\Ninja-Lead\\Assets\\Scritps\\Ground.cs",
+              "RelativeToolTip": "Assets\\Scritps\\Ground.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T07:49:17.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CameraFollow.cs",
+              "DocumentMoniker": "E:\\My Studies\\Ninja-Lead\\Assets\\Scritps\\Camera\\CameraFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scritps\\Camera\\CameraFollow.cs",
+              "ToolTip": "E:\\My Studies\\Ninja-Lead\\Assets\\Scritps\\Camera\\CameraFollow.cs",
+              "RelativeToolTip": "Assets\\Scritps\\Camera\\CameraFollow.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAkAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T09:16:22.282Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
