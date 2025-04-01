@@ -17,7 +17,7 @@ public class Coin : PowerUp
         }
     }
     private void UpdateCoinUI(PlayerInfo player){
-        player.UpdateCoin(DefaultValue());
+        Quest.Instance.UpdatePlayerUI(player.PlayerID, DefaultValue());
     }
     private int DefaultValue() => this.amountReceive;
 }

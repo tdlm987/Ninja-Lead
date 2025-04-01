@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using DG.Tweening;
 using Fusion;
+using Photon.Pun.Demo.PunBasics;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -113,7 +114,8 @@ public class Quest : NetworkBehaviour
             pauseGamePanelCanvasGroup.interactable = true;
             pauseGamePanelCanvasGroup.blocksRaycasts = true;
         });
-        PlayerMovement.Instance.CheckMove(false);
+        if(HasInputAuthority)
+            PlayerMovement.Instance.CheckMove(false);
     }
     public void ResumeGame()
     {
@@ -125,6 +127,29 @@ public class Quest : NetworkBehaviour
             pauseGamePanelCanvasGroup.blocksRaycasts = false;
             this.pauseGamePanelCanvasGroup.gameObject.SetActive(false);
         });
+    }
+    public GameObject playerUIPrefab; // Prefab UI của mỗi Player
+    public Transform uiContainer; // Nơi chứa các UI của Player
+
+    [SerializeField] private Dictionary<string, PlayerControllerUI> playerUIDictionary = new Dictionary<string, PlayerControllerUI>();
+
+    public void RegisterPlayerUI(string playerID)
+    {
+        if (!playerUIDictionary.ContainsKey(playerID))
+        {
+            GameObject uiInstance = Instantiate(playerUIPrefab, uiContainer);
+            PlayerControllerUI playerUI = uiInstance.GetComponent<PlayerControllerUI>();
+            playerUI.PlayerID = playerID;
+            playerUIDictionary.Add(playerID, playerUI);
+        }
+    }
+
+    public void UpdatePlayerUI(string playerID/*, string name*/, int coins/*, float health*/)
+    {
+        if (playerUIDictionary.TryGetValue(playerID, out PlayerControllerUI playerUI))
+        {
+            playerUI.UpdateUI(coins);
+        }
     }
     private int DefaultValue() => 0;
 }

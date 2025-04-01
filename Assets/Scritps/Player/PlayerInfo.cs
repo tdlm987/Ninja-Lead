@@ -30,6 +30,9 @@ public class PlayerInfo : NetworkBehaviour
     }
     [Networked,OnChangedRender(nameof(UpdateUICoin1))] [SerializeField] private int m_current_coins { get; set; } = 0;
     public int Current_Coins { get { return m_current_coins; } }
+
+    private string _playerID;
+    public string PlayerID { get { return _playerID; } set { _playerID = value; } }
     public void UpdateCoin(int _amount)
     {
         if (HasStateAuthority) this.m_current_coins += _amount;
