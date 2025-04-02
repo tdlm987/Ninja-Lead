@@ -5,6 +5,9 @@ using UnityEngine;
 
 public class PlayerInfo : NetworkBehaviour
 {
+    [Networked]
+ [SerializeField]   protected string playerName { get; set; }=string.Empty;
+
     private static PlayerInfo instance;
     public static PlayerInfo Instance { get => instance; }
     protected virtual void Awake()
@@ -40,5 +43,9 @@ public class PlayerInfo : NetworkBehaviour
     public void UpdateUICoin1()
     {
         Quest.Instance.DisplayCurrentCoins(this.m_current_coins);
+    }
+    public override void Spawned()
+    {
+        playerName = PlayerPrefs.GetString("PlayerName");
     }
 }

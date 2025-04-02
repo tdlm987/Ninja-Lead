@@ -1,8 +1,5 @@
 using Fusion;
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class LobbyUI : MonoBehaviour
@@ -10,17 +7,18 @@ public class LobbyUI : MonoBehaviour
     [SerializeField] protected NetworkManager manager;
 
 
-    [SerializeField] public TMP_InputField roomName;
+    [SerializeField] public TMP_InputField playerName;
 
     public virtual void CreateSharedMode()
     {
-        string name=roomName.text;
-        this.manager.CreateRoom(GameMode.AutoHostOrClient, name);
+       // string name=playerName.text;
+        PlayerPrefs.SetString("PlayerName",playerName.text);
+        this.manager.CreateRoom();
     }
 
     public virtual void JoinRoom()
     {
-        string name = roomName.text;
+        string name = playerName.text;
         this.manager.JoinRoom(name);
     }    
     public virtual void JoinRandom()

@@ -5,7 +5,7 @@ using Fusion;
 using Fusion.Sockets;
 using System;
 using UnityEngine.SceneManagement;
-public class NetworkManager : MonoBehaviour,INetworkRunnerCallbacks
+public class NetworkManager : MonoBehaviour, INetworkRunnerCallbacks
 {
     [SerializeField] protected NetworkRunner _runner;
     void Start()
@@ -14,23 +14,24 @@ public class NetworkManager : MonoBehaviour,INetworkRunnerCallbacks
         this._runner.ProvideInput = true;
     }
 
-    public async void CreateRoom(GameMode gameMode, string roomName)
+    public async void CreateRoom()
     {
-        await _runner.StartGame(new StartGameArgs()
+        var startGameArgs = new StartGameArgs()
         {
-            GameMode = gameMode,
-            SessionName = roomName,
+            GameMode = GameMode.AutoHostOrClient,
+            SessionName = "GameRoom",
             Scene = SceneRef.FromIndex(1),
-            SceneManager = gameObject.AddComponent<NetworkSceneManagerDefault>()
-        });
-       
+            SceneManager = gameObject.AddComponent<NetworkSceneManagerDefault>(),
+            PlayerCount = 10
+        };
+        await _runner.StartGame(startGameArgs);
     }
     public async void JoinRandomRoom()
     {
         await _runner.JoinSessionLobby(SessionLobby.ClientServer);
         await _runner.StartGame(new StartGameArgs()
-        { 
-        GameMode=GameMode.Client,
+        {
+            GameMode = GameMode.Client,
         });
 
     }
