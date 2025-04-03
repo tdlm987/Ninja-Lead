@@ -71,7 +71,7 @@ public class ObjectBase : NetworkBehaviour
     }
     protected virtual void Move()
     {
-        if (!HasInputAuthority && !canMove) return; // Chỉ cho phép Player local di chuyển
+        if (!HasInputAuthority && !canMove) return;
 
         float directionZ = moveMode == MoveMode.Forward ? 1f : -1f;
         elapsedTime += Runner.DeltaTime;

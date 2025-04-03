@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Vehical : Obstacle
 {
-    private void Update()
-    {
-        base.Move();
-    }
+    //public override void FixedUpdateNetwork()
+    //{
+    //    base.Move();
+    //}
     public virtual void OnCollisionEnter(Collision other)
     {
         RacingBoy racingBoy = other.gameObject.GetComponent<RacingBoy>();

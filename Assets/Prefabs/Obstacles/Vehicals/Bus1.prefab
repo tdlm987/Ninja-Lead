@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 1380903273742063696}
   - component: {fileID: 7099479162953542466}
   - component: {fileID: 7845953390037158170}
+  - component: {fileID: 3344183595568198676}
+  - component: {fileID: 4275279920323167001}
   m_Layer: 0
   m_Name: Bus1
   m_TagString: Untagged
@@ -101,9 +103,48 @@ MonoBehaviour:
   horizontalSpeed: 0
   canMove: 0
   moveMode: 1
-  maxMoveSpeed: 50
+  maxMoveSpeed: 0
   speedIncreaseRate: 0
-  timeFaster: 30
+  timeFaster: 100000
+--- !u!114 &3344183595568198676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6298304891245402406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SortKey: 169527091
+  ObjectInterest: 1
+  Flags: 262145
+  NestedObjects:
+  - {fileID: 1169289350405231841}
+  - {fileID: 4898166635764634249}
+  NetworkedBehaviours:
+  - {fileID: 7845953390037158170}
+  - {fileID: 4275279920323167001}
+  ForceRemoteRenderTimeframe: 0
+--- !u!114 &4275279920323167001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6298304891245402406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 158639473, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _stateAuthorityChangeErrorCorrectionDelta: 0
+  SyncScale: 0
+  SyncParent: 0
+  _autoAOIOverride: 1
+  DisableSharedModeInterpolation: 0
 --- !u!1 &7141732193557687611
 GameObject:
   m_ObjectHideFlags: 0
@@ -195,6 +236,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7050396714201184239}
     m_Modifications:
+    - target: {fileID: -6757037085987529214, guid: 50e11a7e02f2f2e40b54304a2237dd7f,
+        type: 3}
+      propertyPath: SortKey
+      value: 3001252439
+      objectReference: {fileID: 0}
     - target: {fileID: 917593396912645252, guid: 50e11a7e02f2f2e40b54304a2237dd7f,
         type: 3}
       propertyPath: m_Name
@@ -255,6 +301,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50e11a7e02f2f2e40b54304a2237dd7f, type: 3}
+--- !u!114 &1169289350405231841 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -6757037085987529214, guid: 50e11a7e02f2f2e40b54304a2237dd7f,
+    type: 3}
+  m_PrefabInstance: {fileID: 3602889503030610659}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &2116353605989915527 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3413381682986406244, guid: 50e11a7e02f2f2e40b54304a2237dd7f,
@@ -269,6 +327,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7050396714201184239}
     m_Modifications:
+    - target: {fileID: -6757037085987529214, guid: 50e11a7e02f2f2e40b54304a2237dd7f,
+        type: 3}
+      propertyPath: SortKey
+      value: 2842576822
+      objectReference: {fileID: 0}
     - target: {fileID: 917593396912645252, guid: 50e11a7e02f2f2e40b54304a2237dd7f,
         type: 3}
       propertyPath: m_Name
@@ -329,6 +392,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50e11a7e02f2f2e40b54304a2237dd7f, type: 3}
+--- !u!114 &4898166635764634249 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -6757037085987529214, guid: 50e11a7e02f2f2e40b54304a2237dd7f,
+    type: 3}
+  m_PrefabInstance: {fileID: 7044727166671080587}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &5664721868943498735 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3413381682986406244, guid: 50e11a7e02f2f2e40b54304a2237dd7f,

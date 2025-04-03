@@ -5,22 +5,16 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    [SerializeField] private CinemachineVirtualCamera virtualCamera;
+    private CinemachineVirtualCamera virtualCam;
 
-    //private CinemachineFramingTransposer framingTransposer;
     private void Start()
     {
-        //framingTransposer = virtualCamera.GetCinemachineComponent<CinemachineFramingTransposer>();
+        virtualCam = GetComponentInChildren<CinemachineVirtualCamera>();
     }
-    private void Update()
+
+    public void SetFollowTarget(Transform target)
     {
-        //float scroll = Input.GetAxis("Mouse ScrollWheel");
-        //framingTransposer.m_CameraDistance -= scroll;
-        //framingTransposer.m_CameraDistance = Mathf.Clamp(framingTransposer.m_CameraDistance, 2f, 10f);
-    }
-    public void AssignCamera(Transform playerTransform)
-    {
-        virtualCamera.Follow = playerTransform;
-        virtualCamera.LookAt = playerTransform;
+        virtualCam.Follow = target;
+        virtualCam.LookAt = target;
     }
 }

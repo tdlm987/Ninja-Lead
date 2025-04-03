@@ -8,7 +8,7 @@ public class PlayerDamageReceiver : DamageReceiver
     {
         base.Dead();
         Debug.Log("Bạn đã chết!");
-        Quest.Instance.OnGameOver();
+        //Quest.Instance.OnGameOver();
         PlayerMovement.Instance.CheckMove(false);
     }
 }

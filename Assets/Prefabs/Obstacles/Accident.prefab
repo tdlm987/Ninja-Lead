@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4625433343718869375}
   - component: {fileID: 1357320026067151369}
   - component: {fileID: 80880543247105198}
+  - component: {fileID: -6757037085987529214}
   m_Layer: 0
   m_Name: Accident
   m_TagString: Untagged
@@ -101,3 +102,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-6757037085987529214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 917593396912645252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SortKey: 2516835949
+  ObjectInterest: 1
+  Flags: 262145
+  NestedObjects: []
+  NetworkedBehaviours:
+  - {fileID: 1357320026067151369}
+  ForceRemoteRenderTimeframe: 0

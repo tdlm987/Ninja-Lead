@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
+using Fusion;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -45,8 +46,6 @@ public class PlayerMovement : ObjectBase
     protected override void LoadComponents()
     {
         base.LoadComponents();
-        if (PlayerMovement.instance != null)
-            Debug.LogWarning("Instance PlayerMovement has been existed!");
         instance = this;
     }
     private void Update()
@@ -69,6 +68,10 @@ public class PlayerMovement : ObjectBase
     protected override void Move()
     {
         base.Move();
+        if (Object.HasInputAuthority)  // Chỉ cập nhật cho Player Local
+        {
+            transform.position += transform.forward * Runner.DeltaTime * moveSpeed; // Di chuyển (Demo)
+        }
     }
     protected override void UpdateForwardSpeed()
     {
@@ -82,6 +85,16 @@ public class PlayerMovement : ObjectBase
         {
             transform.DORotate(Vector3.up * angleTurn * horizontalInput, turnDuration);
         }
+        if (horizontalInput != 0 && Object.HasInputAuthority)
+        {
+            RPC_TurnSFX();
+        }
+    }
+    [Rpc(RpcSources.InputAuthority,RpcTargets.All)]
+    public virtual void RPC_TurnSFX()
+    {
+        AudioManager.instance.PlaySFX(3, transform);
+        Debug.Log("Phát âm thanh!");
     }
 
     //Fly
@@ -106,6 +119,7 @@ public class PlayerMovement : ObjectBase
     //Boost
     protected virtual void Boost()
     {
+        if (!HasInputAuthority) return;
         if (Input.GetKeyDown(KeyCode.B))
             BoostSpeed();
     }

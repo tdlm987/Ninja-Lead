@@ -6,16 +6,21 @@ public class Accident : Obstacle
 {
     private void OnTriggerEnter(Collider other)
     {
-        PlayerHealth player = other.gameObject.GetComponent<PlayerHealth>();
+        PlayerMovement player = other.gameObject.GetComponent<PlayerMovement>();
         if (player != null)
         {
-            this.ImpactToPlayer();
+            if (player.HasInputAuthority)
+            {
+                Quest.Instance.OnGameOver(player);
+                var camera = player.GetComponentInChildren<CameraFollowPlayer>();
+                camera.isFollowPlayer = false;
+                this.ImpactToPlayer(player);
+            }
         }
     }
-    public virtual void ImpactToPlayer()
+    public virtual void ImpactToPlayer(PlayerMovement player)
     {
         Debug.Log("Bạn đã chết!");
-        Quest.Instance.OnGameOver();
-        PlayerMovement.Instance.CheckMove(false);
+        player.CheckMove(false);
     }
 }

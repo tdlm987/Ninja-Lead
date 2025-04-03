@@ -47,9 +47,9 @@ public class Quest : NetworkBehaviour
         this.OnStartNewGame();
     }
 
-    public void DislayGameOverPanel()
+    public void DislayGameOverPanel(PlayerMovement player)
     {
-        this.panelGameOver.SetActive(true);
+        player.gameObject.GetComponentInChildren<Canvas>().transform.GetChild(0).gameObject.SetActive(true);
         txtScore.text = DistanceMeasure.Instance.Distance.ToString("N0", new CultureInfo("en-US")) + " M";
         txtCoin.text = PlayerInfo.Instance.Current_Coins.ToString();
     }
@@ -81,10 +81,10 @@ public class Quest : NetworkBehaviour
             Debug.Log("Đã lưu điểm!");
         }
     }
-    public void OnGameOver()
+    public void OnGameOver(PlayerMovement playerMovement)
     {
         Time.timeScale = 0f;
-        this.DislayGameOverPanel();
+        this.DislayGameOverPanel(playerMovement);
         this.StopMeasureDistance();
     }
     public void OnStartNewGame()
@@ -132,17 +132,43 @@ public class Quest : NetworkBehaviour
     public Transform uiContainer; // Nơi chứa các UI của Player
 
     [SerializeField] private Dictionary<string, PlayerControllerUI> playerUIDictionary = new Dictionary<string, PlayerControllerUI>();
-
+    [SerializeField] private List<PlayerControllerUI> listUIPlayer;
     public void RegisterPlayerUI(string playerID)
     {
         if (!playerUIDictionary.ContainsKey(playerID))
         {
-            GameObject uiInstance = Instantiate(playerUIPrefab, uiContainer);
-            PlayerControllerUI playerUI = uiInstance.GetComponent<PlayerControllerUI>();
-            playerUI.PlayerID = playerID;
-            playerUIDictionary.Add(playerID, playerUI);
+            NetworkObject networkObj = Runner.Spawn(playerUIPrefab, uiContainer.position, Quaternion.identity, Runner.LocalPlayer, (runner, obj) =>
+            {
+                PlayerControllerUI uiComponent = obj.GetComponent<PlayerControllerUI>();
+                DistanceMeasure distanceMeasure = obj.GetComponentInChildren<DistanceMeasure>();
+                uiComponent.PlayerID = playerID;
+                listUIPlayer.Add(uiComponent);
+                playerUIDictionary.Add(playerID, uiComponent);
+            });
         }
     }
+    public void Update()
+    {
+        UpdateUIVisibility();
+    }
+    [SerializeField] private PlayerControllerUI[] listUI1;
+    private void UpdateUIVisibility()
+    {
+        listUI1 = FindObjectsOfType<PlayerControllerUI>();
+        foreach (var kvp in listUI1)
+        {
+            if (listUIPlayer.Contains(kvp))
+            {
+                kvp.gameObject.SetActive(true);
+                kvp.gameObject.GetComponentInChildren<DistanceMeasure>().IsMeasureDistance = true;
+            }
+            else
+            {
+                kvp.gameObject.SetActive(false);
+            }
+        }
+    }
+
 
     public void UpdatePlayerUI(string playerID/*, string name*/, int coins/*, float health*/)
     {

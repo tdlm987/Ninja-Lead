@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Fusion;
@@ -56,9 +56,20 @@ public class GameManager : MonoBehaviour, INetworkRunnerCallbacks
             rotation: quaternion.identity,
             inputAuthority: player
             );
+            //   players.Add(player, newPlayer.GetComponent<PlayerMovement>());
 
-            players.Add(player, newPlayer.GetComponent<PlayerMovement>());
+
+
+            if (player == runner.LocalPlayer)
+            {
+                CameraFollow cameraManager = FindObjectOfType<CameraFollow>();
+                cameraManager.SetFollowTarget(newPlayer.transform);
+            }
+            Quest.Instance.RegisterPlayerUI(player.PlayerId.ToString());
+            newPlayer.GetComponent<PlayerInfo>().PlayerID = player.PlayerId.ToString();
         }
+
+       
     }
 
     public void OnPlayerLeft(NetworkRunner runner, PlayerRef player)

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1380903273742063696}
   - component: {fileID: 7099479162953542466}
   - component: {fileID: 7845953390037158170}
+  - component: {fileID: -7258114790454187372}
   m_Layer: 0
   m_Name: Vehical
   m_TagString: Untagged
@@ -102,6 +103,25 @@ MonoBehaviour:
   maxMoveSpeed: 50
   speedIncreaseRate: 0.5
   timeFaster: 30
+--- !u!114 &-7258114790454187372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6298304891245402406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SortKey: 3518284302
+  ObjectInterest: 1
+  Flags: 786433
+  NestedObjects: []
+  NetworkedBehaviours:
+  - {fileID: 7845953390037158170}
+  ForceRemoteRenderTimeframe: 0
 --- !u!1 &7141732193557687611
 GameObject:
   m_ObjectHideFlags: 0

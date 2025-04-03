@@ -12,7 +12,7 @@ public class PlayerSetup : NetworkBehaviour
             CameraFollow cameraFollow = FindObjectOfType<CameraFollow>();
             if (cameraFollow != null)
             {
-                cameraFollow.AssignCamera(transform);
+                //cameraFollow.AssignCamera(transform);
             }
         }
     }

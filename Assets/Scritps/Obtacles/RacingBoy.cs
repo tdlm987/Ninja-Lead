@@ -66,9 +66,10 @@ public class RacingBoy : Obstacle
     }
     public virtual void OnCollisionEnter(Collision other)
     {
-        PlayerHealth player = other.gameObject.GetComponent<PlayerHealth>();
+        PlayerMovement player = other.gameObject.GetComponent<PlayerMovement>();
         if (player != null)
         {
+            Quest.Instance.OnGameOver(player);
             this.ImpactToPlayer();
         }
         if (redLineObj != null && !isBoyComing) this.redLineObj.transform.gameObject.SetActive(true);
@@ -76,7 +77,6 @@ public class RacingBoy : Obstacle
     public virtual void ImpactToPlayer()
     {
         Debug.Log("Bạn đã chết!");
-        Quest.Instance.OnGameOver();
         PlayerMovement.Instance.CheckMove(false);
     }
     protected virtual void Race()
